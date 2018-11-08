@@ -1,22 +1,30 @@
-//使用express构建web服务器
+//使用express构建web服务器 --11:25
 const express = require('express');
-const user = require("./routes/user.js");
-//引入第三方中间件
-const bodyParser = require('body-parser');
+const mysql=require("mysql");
+const pool=require("./pool")
 // 2.创建服务器
 var app=express();
-// 3.绑定监听端口//配置中间件body-parser
-app.use(bodyParser.urlencoded({extended:false}));
 // 3.绑定监听端口
 app.listen(7200);
-//加载处理跨域模块
-const cors=require("cors");
-//允许哪个地址跨域模块
-app.use(cors({
-    origin:["http://127.0.0.1:8080"],
-    credentials:true
-}));
 app.use(express.static(__dirname+"/public"));
 
-app.use("/user",user);
+app.get("/imagelist",(req,res)=>{
+  var sql="SELECT id,img_url as pic from xz_imagelist";
+  pool.query(sql,[],(err,result)=>{
+    if(err)thorw(error);
+    res.send(result);
+  })
+})
+app.get("/messagelist",(req,res)=>{
+result=[
+	{ id: 1, name: "手机年底大促", date: "2018-11-11", pic:"http://127.0.0.1:3000/img/index/banner1.png",desc:"越努力越幸运"},
+	{ id: 2, name: "服装年底大促", date: "2018-11-11", pic: "http://127.0.0.1:3000/img/index/banner2.png", desc: "越努力越幸运" },
+	{ id: 3, name: "游戏币年底大促", date: "2018-11-11", pic: "http://127.0.0.1:3000/img/index/banner3.png", desc: "越努力越幸运" },
+	{ id: 4, name: "游戏道具年底大促", date: "2018-11-11", pic: "http://127.0.0.1:3000/img/index/banner4.png", desc: "越努力越幸运" },
+	]
+    res.send(result);
+})
+
+//测试
+//http:localhost:3000/details/?lid=3;
 
