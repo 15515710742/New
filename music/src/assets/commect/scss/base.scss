@@ -1,0 +1,107 @@
+$bjBlack:#242424;
+$bjRed:#C20C0C;
+$bjGray:#F5F5F5;
+$fontCBlack:#000;
+$fontCGray:#666666;
+$fontCWhite:#f5f5f5;
+$fontCRed:#C20C0C;
+$borderCGray:#d3d3d3;
+body,p,h1,h2,h3,h4,h5,a,li,ul,ol{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: $fontCBlack;
+  list-style: none;
+}
+input{
+  border:none;
+}
+input:hover,input:focus{
+  outline: none
+}
+// 需要宽度
+.text{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.bgBlack{
+  background:$bjBlack;
+}
+.bgRed{
+  background: $bjRed;
+}
+.bgGray{
+  background: $bjGray;
+}
+.bgWhite{
+  background: white
+}
+.fontCBlack{
+  color:$fontCBlack;
+}
+.fontCGray{
+  color:$fontCGray;
+}
+.fontCWhite{
+  color:$fontCWhite;
+}
+.fontCRed{
+  color: $fontCRed;
+}
+.border{
+  border:1px solid $borderCGray
+}
+.border-top{
+  border-top:1px solid $borderCGray
+}
+.border-right{
+  border-right:1px solid $borderCGray
+}
+.border-left{
+  border-left:1px solid $borderCGray
+}
+.border-bottom{
+  border-bottom:1px solid $borderCGray
+}
+.contentB{
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+}
+.contentS{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+.fontSS{
+  font-size: 12px
+}
+.boxsizing{
+  box-sizing: border-box;
+}
+.content-left-25{
+  width: 240px;
+}
+.content-right-75{
+  width: 760px;
+}
+/* guo 2018-10-26 */
+.coverall-msk{
+  width: 16px;height: 16px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: 0px -740px;
+}
+.button2-xiazai{
+  width: 40px;height: 20px;
+  background: url("http://127.0.0.1:7200/image/jl/button2.png") no-repeat;
+  background-position: 0px -2765px;
+}
+
+.button2-comment{
+  width: 40px;height: 20px;
+  background: url("http://127.0.0.1:7200/image/jl/button2.png") no-repeat;
+  background-position: 0px -1512px;
+}
+
+/* guo 2018-10-26 */

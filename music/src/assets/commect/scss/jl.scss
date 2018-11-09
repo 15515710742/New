@@ -1,0 +1,447 @@
+// div{
+//   border: 1px solid orange;
+// } 
+$http:"http://127.0.0.1:7200/image/jl/banner.png";
+.cs{
+  min-height: 70px;
+}
+.cs1{
+  min-height: 10px;
+}
+.cs2{
+  min-height: 300px;
+}
+.cs3{
+  min-height: 120px;
+}
+//添加 gaoqiang 2018/10/24/22.00
+.coverall-1-5{
+  background: url("http://127.0.0.1:7200/image/jl/coverall.png") no-repeat;
+  width:100px;height: 100px;
+  background-position: -239px -70px;
+}
+//添加 gaoqiang
+.coverall-1-1{
+  background: url("http://127.0.0.1:7200/image/jl/coverall.png") no-repeat;
+  width:140px;height: 140px;
+  background-position: 0px -0px;
+}
+.coverall-1-4{
+  background: url("http://127.0.0.1:7200/image/jl/coverall.png") no-repeat;
+  width:80px;height: 80px;
+  background-position: -145px -57px;
+}
+
+.coverall-4-1{
+  background: url("http://127.0.0.1:7200/image/jl/coverall.png") no-repeat;
+  width: 116px;height: 100px;
+  background-position: 0px -570px;
+} 
+.index-circle{
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  width: 15px;height: 15px;
+  background-position: -235px -163px;
+} 
+.index-jiantou1{
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  width: 13px;height: 12px;
+  background-position: 0px -240px;
+} 
+.index-jiantou2-left{
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  width: 13px;height: 17px;
+  background-position: -263px -75px;
+} 
+.index-jiantou2-left:hover{
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  width: 13px;height: 17px;
+  background-position: -284px -75px;
+} 
+.index-jiantou2-right{
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  width: 13px;height: 17px;
+  background-position: -303px -75px;
+} 
+.index-jiantou2-right:hover{
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  width: 13px;height: 17px;
+  background-position: -322px -75px;
+} 
+.index-button{
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  width: 100px;height: 32px;
+  background-position: -110px -194px;
+} 
+.index-button:hover{
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  width: 100px;height: 32px;
+  background-position: 0px -193px;
+} 
+.topbar-login{
+  background: url("http://127.0.0.1:7200/image/jl/topbar.png") no-repeat;
+  width: 153px;height: 28px;
+  background-position: 0px -21px;
+} 
+.topbar-selected{
+  background: url("http://127.0.0.1:7200/image/jl/topbar.png") no-repeat;
+  width: 20px;height: 20px;
+  background-position: -7px -104px;
+} 
+.topbar-sanjiao{
+  background: url("http://127.0.0.1:7200/image/jl/topbar.png") no-repeat;
+  width: 24px;height: 10px;
+  background-position: -210px -140px;
+}
+/* <!-- gaoqiang 2018/10/24 --> */
+.foot_enter-zimeiti{
+  background: url("http://127.0.0.1:7200/image/jl/foot_enter.png") no-repeat;
+  width:45px;height: 61px;
+  background-position: -7px 0px;
+}
+.foot_enter-zimeiti:hover{
+  background: url("http://127.0.0.1:7200/image/jl/foot_enter.png") no-repeat;
+  width:45px;height: 61px;
+  background-position: -7px -150px;
+}
+.huizhang{
+  display: inline;
+  padding: 1px 10px;
+  border-radius: 20px;
+}
+/* <!-- gaoqiang 2018/10/24 --> */
+
+.a{
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  width: 300px;height: 300px;
+  background-position: 0px 0px;
+} 
+/* guolei 2018-10-24 */
+.iconall-zanting1{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:16px;height: 17px;
+  background-position: 0px 0px;
+}
+
+.iconall-xiangshang{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:26px;height: 11px;
+  background-position: -47px 0px;
+}
+.iconall-zanting2{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:22px;height: 22px;
+  background-position: -81px -1px;
+}
+.iconall-erji{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:14px;height: 12px;
+  background-position: 0px -24px;
+}
+.iconall-zanting3{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:26px;height: 26px;
+  background-position: -42px -22px;
+}
+.iconall-zanting2:hover{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:22px;height: 22px;
+  background-position: -81px -31px;
+}
+.iconall-zanting5{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:18px;height: 18px;
+  background-position: 2px -60px;
+}
+.iconall-zanting5:hover{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:18px;height: 18px;
+  background-position: -18px -60px;
+}
+.iconall-zanting3:hover{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:26px;height: 26px;
+  background-position: -42px -52px;
+}
+.iconall-kaishi1{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:25px;height: 25px;
+  background-position: -80px -60px;
+}
+.iconall-kaishi1:hover{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:25px;height: 25px;
+  background-position: -80px -90px;
+}
+.iconall-zanting8{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:22px;height: 22px;
+  background-position: 0px -85px;
+}
+.iconall-zanting8:hover{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:22px;height: 22px;
+  background-position: 0px -110px;
+}
+.iconall-zanting9{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:40px;height: 40px;
+  background-position: -32px -137px;
+}
+.iconall-zanting9:hover{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:40px;height: 40px;
+  background-position: -32px -87px;
+}
+.iconall-zanting11{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:28px;height: 28px;
+  background-position: 0px -140px;
+}
+.iconall-zanting11:hover{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:28px;height: 28px;
+  background-position: 0px -170px;
+}
+.iconall-zanting14{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:21px;height: 21px;
+  background-position: 0px -215px;
+}
+.iconall-zanting15{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:94px;height: 94px;
+  background-position: -8px -393px;
+}
+.iconall-zanting15:hover{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:94px;height: 94px;
+  background-position: -8px -618px;
+}
+.iconall-shoucang1:hover{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:76px;height: 32px;
+  background-position: 0px -500px;
+}
+.iconall-shoucang1{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:76px;height: 32px;
+  background-position: 0px -540px;
+}
+.iconall-yishoucang{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:76px;height: 32px;
+  background-position: 0px -735px;
+}
+.iconall-quxiaoshoucang{
+  background: url("http://127.0.0.1:7200/image/jl/iconall.png") no-repeat;
+  width:76px;height: 32px;
+  background-position: 0px -781px;
+}
+/* guolei 2018-10-24 */
+/* zhuang 2018-10-24 */
+.index-bofang-big-1{
+  width: 25px;height: 25px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -265px -203px;
+}
+.index-bofang-big-1:hover{
+  width: 25px;height: 25px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -265px -233px;
+}
+.index-wjj-big-1{
+  width: 24px;height: 24px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -297px -205px;
+}
+.index-wjj-big-1:hover{
+  width: 24px;height: 24px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -297px -235px;
+}
+.index-bofang-big-red{
+  width: 25px;height: 25px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -326px -203px;
+}
+.index-music{
+  width: 25px;height: 25px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -327px -234px;
+}
+
+.index-bofang-small-1{
+  width: 20px;height: 20px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -265px -266px;
+}
+.index-bofang-small-1:hover{
+  width: 20px;height: 20px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -265px -286px;
+}
+.index-wjj-small-1{
+  width: 20px;height: 20px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -295px -267px;
+}
+.index-wjj-small-1:hover{
+  width: 20px;height: 20px;
+  background: url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -295px -287px;
+}
+.foot_enter-zanshang{
+  width: 45px;height: 60px;
+  background: url("http://127.0.0.1:7200/image/jl/foot_enter.png") no-repeat;
+  background-position: -67px 0px;
+}
+.foot_enter-zanshang:hover{
+  width: 45px;height: 60px;
+  background: url("http://127.0.0.1:7200/image/jl/foot_enter.png") no-repeat;
+  background-position: -67px -150px;
+}
+.foot_enter-music{
+  width: 45px;height: 60px;
+  background: url("http://127.0.0.1:7200/image/jl/foot_enter.png") no-repeat;
+  background-position: -7px -79px;
+}
+.foot_enter-music:hover{
+  width: 45px;height: 60px;
+  background: url("http://127.0.0.1:7200/image/jl/foot_enter.png") no-repeat;
+  background-position: -7px -229px;
+}
+.foot_enter-singer{
+  width: 55px;height: 60px;
+  background: url("http://127.0.0.1:7200/image/jl/foot_enter.png") no-repeat;
+  background-position: -62px -79px;
+}
+.foot_enter-singer:hover{
+  width: 55px;height: 60px;
+  background: url("http://127.0.0.1:7200/image/jl/foot_enter.png") no-repeat;
+  background-position: -62px -380px;
+}
+.icon-add{
+  width: 18px;height: 18px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: -44px -86px;
+}
+.icon-add:hover{
+  width: 18px;height: 18px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: -44px -109px;
+}
+.icon-add-1{
+  width: 15px;height: 15px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: 1px -699px;
+}
+.icon-add-1:hover{
+  width: 15px;height: 15px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: -21px -699px;
+}
+.icon-share{
+  width: 18px;height: 18px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: -44px -135px;
+}
+.icon-share:hover{
+  width: 18px;height: 18px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: -44px -158px;
+}
+.icon-delete{
+  width: 15px;height: 15px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: 2px -283px;
+}
+.icon-delete:hover{
+  width: 15px;height: 15px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: -18px -283px;
+}
+.icon-write{
+  width: 15px;height: 15px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: 2px -268px;
+}
+.icon-write:hover{
+  width: 15px;height: 15px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: -18px -268px;
+}
+/* zhuang 2018-10-24 */
+/* guo 2018-10-25 */
+.coverall-msk{
+  width: 150px;height: 130px;
+  background: url("http://127.0.0.1:7200/image/jl/coverall.png") no-repeat;
+  background-position: 0px -845px;
+}
+/* guo 2018-10-25 */
+
+/* guo 2018-10-26 */
+.coverall-msk{
+  width: 16px;height: 16px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: 0px -740px;
+}
+/* guo 2018-10-26 */
+// <!-- gaoqiang  2018/10/28 -->
+.sprite-select{
+  background: url("http://127.0.0.1:7200/image/jl/sprite.png") no-repeat;
+  width: 420px;height: 40px;
+  background-position: 0px 0px;
+  position: relative;
+}
+.sprite-select>a.txt-select{
+  display: none;
+  background: url("http://127.0.0.1:7200/image/jl/sprite.png") no-repeat;
+  width: 50px;height: 40px;
+  background-position: -430px 0px;
+  position: absolute;
+  left: 370px;
+  top: 0px;
+}
+.sprite-select:hover a.txt-select{
+  display: block;
+}
+.sprite-top{
+  background: url("http://127.0.0.1:7200/image/jl/sprite.png") no-repeat;
+  width: 49px;height:43px;
+  background-position: -265px -47px;
+}
+.sprite-top:hover{
+  background: url("http://127.0.0.1:7200/image/jl/sprite.png") no-repeat;
+  width: 49px;height:43px;
+  background-position: -325px -47px;
+}
+// <!-- gaoqiang  2018/10/28 -->
+.icon-icn{
+  width: 16px;height: 16px;
+  background: url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position: 0px -740px;
+}
+
+/* cuikui2018-10-29*/
+.ck-icon{
+  width:10px;height:10px;
+  background:url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position: -270px -292px;
+}
+.ck-icon-1{
+  width:10px;height:8px;
+  background:url("http://127.0.0.1:7200/image/jl/icon.png") no-repeat;
+  background-position:-3px -404px;
+}
+.ck-icon-right{
+  width:13px;height:13px;
+  background:url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position:-272px -210px;
+}
+.ck-icon-bottom{
+  width:13px;height:13px;
+  background:url("http://127.0.0.1:7200/image/jl/index.png") no-repeat;
+  background-position:-272px -210px;
+  transform: rotate(90deg)
+}
+/* cuikui */

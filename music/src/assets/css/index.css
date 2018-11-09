@@ -1,0 +1,29 @@
+.nav{
+  border-bottom: 2px solid #c20c0c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav>div.nav-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav>div.nav-left>div,.nav>div.nav-left>ul{
+  margin-left: 5px;
+}
+.nav>div.nav-left>div:nth-child(2){
+  font-size: 20px;
+}
+
+.nav>div.nav-left>div:last-child,.nav>div.nav-left>div:last-child>a{
+  display: flex;
+  align-items: center;
+}
+.more{
+  display: flex;
+}
+.change{
+  position: relative;
+  top: 3px;
+}
